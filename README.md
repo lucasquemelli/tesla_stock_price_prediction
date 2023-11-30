@@ -19,3 +19,11 @@ Time series analysis involves analyzing historical data by developing models to 
 ```from statsmodels.tsa.stattools import adfuller```
 
 We checked out the closing price of the stock. **The p-value obtained after running the ADF test must be less than 0.05(tested significance value) for the data to be stationary**. Data was non-stationary, then we used LSTM model to predict Tesla stock price.
+
+**Purpose**
+
+---
+
+To predict Tesla (TSLA) stock price based on daily data over 8 years.
+
+**NOTE**: this is a shorter project, since to predict stock price we use daily data. For a interval of 8 year we only have around 2000 data points. That's too little to perform multiple analysis. But it is enough to develop a Machine Learning model.
