@@ -14,6 +14,8 @@ Time series forecasting method is the process of making scientific predictions b
 
 Time series analysis involves analyzing historical data by developing models to help you understand the cause of a particular event. It can help you understand the reasons for the outcomes of certain historical events. Forecasting takes the analysis models and uses that knowledge to extrapolate and predict future events. Some models used for time series forecasting and analysis are moving average, exponential smoothing, and ARIMA.
 
-```From statsmodels.tsa.arima.model``` we may ```import``` the ```ARIMA``` model for time series analysis. **ARIMA is an acronym for AutoRegressive Integrated Moving Average** and is **used for stationary time series** that have no predictable patterns in the long term. Before using the ARIMA model, we must identify if the data is stationary or non – stationary. We used the ADF (Augmented Dickey-Fuller) Test By using the following module: ```from statsmodels. tsa.stattools import adfuller```.
+```From statsmodels.tsa.arima.model``` we may ```import``` the ```ARIMA``` model for time series analysis. **ARIMA is an acronym for AutoRegressive Integrated Moving Average** and is **used for stationary time series** that have no predictable patterns in the long term. Before using the ARIMA model, we must identify if the data is stationary or non – stationary. We used the ADF (Augmented Dickey-Fuller) Test By using the following module: 
+
+```from statsmodels.tsa.stattools import adfuller```
 
 We checked out the closing price of the stock. **The p-value obtained after running the ADF test must be less than 0.05(tested significance value) for the data to be stationary**. Data was non-stationary, then we used LSTM model to predict Tesla stock price.
