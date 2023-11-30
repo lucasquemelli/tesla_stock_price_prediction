@@ -24,6 +24,6 @@ We checked out the closing price of the stock. **The p-value obtained after runn
 
 ---
 
-To predict Tesla (TSLA) stock price based on daily data over 8 years.
+To predict Tesla (TSLA) stock price based on daily data over 5 years.
 
-**NOTE**: this is a shorter project, since to predict stock price we use daily data. For a interval of 8 year we only have around 2000 data points. That's too little to perform multiple analysis. But it is enough to develop a Machine Learning model.
+**NOTE**: this is a shorter project, since to predict stock price we use daily data. For a interval of 5 year we only have around 2000 data points. That's too little to perform multiple analysis. But it is enough to develop a Machine Learning model.
